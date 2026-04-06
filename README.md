@@ -1,34 +1,40 @@
 <div align="center">
-  <img src="header.svg" alt="Elvin Latifli" width="100%"/>
+  <img src="header.svg" width="100%"/>
 </div>
 
 <br>
 
 <table>
 <tr>
-<td width="55%" valign="top">
+<td width="50%" valign="top">
 
-**`> git log --oneline`**
+`rickshell` — [github.com/rickidevs/rickshell](https://github.com/rickidevs/rickshell)
+> Post-exploitation tool & reverse shell handler · **BlackArch Official**
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=3fb950&text_color=8b949e)
-
-![Streak](https://streak-stats.demolab.com?user=YOUR_USERNAME&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=21262d&ring=58a6ff&fire=3fb950&currStreakLabel=58a6ff)
+`rickphis` — [github.com/rickidevs/rickphis](https://github.com/rickidevs/rickphis)
+> Phishing & social engineering toolkit · **Red Team**
 
 </td>
-<td width="45%" valign="top">
+<td width="50%" valign="top">
 
-**`> cat now_playing.fm`**
-
-[![Spotify](https://novatorem.vercel.app/api/spotify?background_color=0d1117&border_color=21262d)](https://open.spotify.com/user/YOUR_SPOTIFY_ID)
-
-<br>
-
-**`> ping me`**
-
-[![Web](https://img.shields.io/badge/elvinlatifli.com-0d1117?style=for-the-badge&logo=firefoxbrowser&logoColor=58a6ff)](https://elvinlatifli.com)
-[![GitHub](https://img.shields.io/badge/github-0d1117?style=for-the-badge&logo=github&logoColor=white)](https://github.com/YOUR_USERNAME)
-[![LinkedIn](https://img.shields.io/badge/linkedin-0d1117?style=for-the-badge&logo=linkedin&logoColor=58a6ff)](https://linkedin.com/in/YOUR_LINKEDIN)
+[![Spotify](https://novatorem.vercel.app/api/spotify?background_color=000000&border_color=111111)](https://open.spotify.com/user/YOUR_SPOTIFY_ID)
 
 </td>
 </tr>
 </table>
+
+<br>
+
+<div align="center">
+
+![Stats](https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=github_dark&hide_border=true&bg_color=000000&title_color=ffffff&icon_color=ffffff&text_color=333333)
+
+</div>
+
+<br>
+
+<div align="center">
+<a href="https://elvinlatifli.com"><img src="https://img.shields.io/badge/elvinlatifli.com-000000?style=for-the-badge&logoColor=white"/></a>
+<a href="https://github.com/YOUR_USERNAME"><img src="https://img.shields.io/badge/github-000000?style=for-the-badge&logo=github&logoColor=white"/></a>
+<a href="https://linkedin.com/in/YOUR_LINKEDIN"><img src="https://img.shields.io/badge/linkedin-000000?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+</div>
