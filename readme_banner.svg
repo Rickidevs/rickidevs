@@ -1,0 +1,79 @@
+<svg width="800" height="200" viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400');
+
+      .bg { fill: #060606; }
+
+      .word {
+        font-family: 'Playfair Display', Georgia, serif;
+        font-style: italic;
+        font-size: 28px;
+        fill: #ffffff;
+        opacity: 0;
+        animation: emerge 1.6s ease forwards;
+      }
+
+      .pain {
+        fill: #ff2222;
+        animation: emerge-pain 1.6s ease forwards;
+      }
+
+      @keyframes emerge {
+        0%   { opacity: 0; filter: blur(12px); }
+        100% { opacity: 1; filter: blur(0px); }
+      }
+
+      @keyframes emerge-pain {
+        0%   { opacity: 0; filter: blur(12px); fill: #ff2222; }
+        100% { opacity: 1; filter: blur(0px);  fill: #ff2222; }
+      }
+
+      .w0 { animation-delay: 0.0s; }
+      .w1 { animation-delay: 0.5s; }
+      .w2 { animation-delay: 1.0s; }
+      .w3 { animation-delay: 1.5s; }
+      .w4 { animation-delay: 2.0s; }
+      .w5 { animation-delay: 2.5s; }
+      .w6 { animation-delay: 3.0s; }
+      .w7 { animation-delay: 3.5s; }
+      .w8 { animation-delay: 4.0s; }
+
+      .redflash {
+        fill: #ff2222;
+        opacity: 0;
+        animation: rf 0.6s 1.5s ease-out forwards;
+      }
+      @keyframes rf {
+        0%   { opacity: 0; }
+        20%  { opacity: 0.06; }
+        100% { opacity: 0; }
+      }
+
+      .glowflash {
+        fill: #ffffff;
+        opacity: 0;
+        animation: gf 0.5s 4.0s ease-out forwards;
+      }
+      @keyframes gf {
+        0%   { opacity: 0; }
+        15%  { opacity: 0.04; }
+        100% { opacity: 0; }
+      }
+    </style>
+  </defs>
+  <rect width="800" height="200" class="bg"/>
+  <rect width="800" height="200" class="redflash"/>
+  <rect width="800" height="200" class="glowflash"/>
+  <text text-anchor="middle" dominant-baseline="middle">
+    <tspan class="word w0" x="68"  y="100">a</tspan>
+    <tspan class="word w1" x="148" y="100">moment</tspan>
+    <tspan class="word w2" x="236" y="100">of</tspan>
+    <tspan class="word w3 pain" x="310" y="100">pain</tspan>
+    <tspan class="word w4" x="378" y="100">is</tspan>
+    <tspan class="word w5" x="440" y="100">worth</tspan>
+    <tspan class="word w6" x="516" y="100">a</tspan>
+    <tspan class="word w7" x="584" y="100">lifetime</tspan>
+    <tspan class="word w8" x="692" y="100">of glory.</tspan>
+  </text>
+</svg>
